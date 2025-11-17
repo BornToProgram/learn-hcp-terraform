@@ -2,6 +2,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
+/*
 data "aws_availability_zones" "available" {
   state = "available"
 }
@@ -43,3 +44,4 @@ resource "aws_instance" "app_server" {
     Name = var.instance_name
   }
 }
+*/
